@@ -1,0 +1,28 @@
+{
+  "name": "a21-web3-contact-list-api",
+  "version": "1.0.0",
+  "description": "Gestion de liste de contact\r API\r NodeJS et BD sqlite en mémoire\r Par Kevin Bessette",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint:init": "eslint --init",
+    "lint": "eslint --fix --ignore-path .gitignore . "
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://bitbucket:7990/scm/kb-12345678/a21-web3-contact-list-api.git"
+  },
+  "author": "Kevin Bessette",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
